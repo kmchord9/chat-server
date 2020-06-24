@@ -1,0 +1,16 @@
+{
+    "name": "Node.js React",
+    "dockerFile": "Dockerfile",
+
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ],
+
+    "forwardPorts": [3000, 9005],
+
+    "postCreateCommand": "yarn install"
+}
